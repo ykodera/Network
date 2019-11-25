@@ -4,7 +4,8 @@
 #include <sys/socket.h>
 #include <unistd.h>
 #include <netinet/in.h>
-
+#include <signal.h>
+#include <sys/wait.h>
 
 
 void waitall (int sig) {
